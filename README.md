@@ -30,25 +30,25 @@ uv add PyMuPDF Pillow
 ### Basic Usage
 ```bash
 # Compress all PDFs in current 'papers' directory
-python compress_pdfs_python.py
+python PDF_Compress.py
 
 # Using uv (recommended for isolated environment)
-uv run python compress_pdfs_python.py
+uv run python PDF_Compress.py
 ```
 
 ### Custom Settings
 ```bash
 # Higher compression (smaller files, lower quality)
-python compress_pdfs_python.py --image-quality 30 --image-dpi 100
+python PDF_Compress.py --image-quality 30 --image-dpi 100
 
 # Better quality (larger files, higher quality)
-python compress_pdfs_python.py --image-quality 70 --image-dpi 200
+python PDF_Compress.py --image-quality 70 --image-dpi 200
 
 # Custom directories
-python compress_pdfs_python.py --input-dir my_pdfs --output-dir compressed_pdfs
+python PDF_Compress.py --input-dir my_pdfs --output-dir compressed_pdfs
 
 # More parallel processing
-python compress_pdfs_python.py --workers 6
+python PDF_Compress.py --workers 6
 ```
 
 ## Command Line Options
