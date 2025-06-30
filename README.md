@@ -144,12 +144,6 @@ ModuleNotFoundError: No module named 'fitz'
 ```
 **Solution**: Install PyMuPDF with `pip install PyMuPDF`
 
-#### Antivirus False Positives
-```
-PDF:MalwareX-gen [Phish] detected
-```
-**Solution**: This is a false positive due to PDF structure changes. Add the output folder to your antivirus exclusions.
-
 #### Memory Issues
 ```
 Memory error during processing
